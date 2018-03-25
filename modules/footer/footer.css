@@ -1,0 +1,11 @@
+.footer{
+	height: 50px;
+	line-height: 50px;
+	margin: 20px 0;
+}
+.footer .inner{
+	background: rgba(255, 255, 255, .9);
+	text-align: center;
+	color: #4d4d4d;
+	font-size: 12px;
+}

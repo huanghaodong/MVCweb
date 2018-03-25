@@ -1,0 +1,167 @@
+.home{
+
+	padding: 30px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, .1);
+	background: rgba(255, 255, 255, .9);
+}
+.banner>ul{
+	position: relative;
+	height: 400px;
+}
+.banner>ul>li{
+	position: absolute;
+	display: none;
+}
+.banner>ul>li:first-child{
+	display: block;
+}
+.banner>ul>li>img{
+	height: 400px;
+	width: 900px;
+}
+.banner>ul>li>p{
+	color: #000;
+    padding: 9px 15px 7px 15px;
+    text-align: left;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, .9);
+}
+.banner .btns{
+	margin:10px auto;
+}
+.banner .cirs li{
+	cursor: pointer;
+    margin: 7px 7px 0 0;
+    width: 4px;
+    height: 4px;
+    text-indent: -99999px;
+    display: inline-block;
+    background:#454545;
+    border-radius: 50%;
+    border: 4px solid #454545;
+}
+.banner .cirs li.choose{
+	background: rgba(255, 255, 255, .9);
+}
+
+.btns>div{
+	float: left;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	background-image: url('arrows.png');
+	background-repeat: no-repeat;
+}
+.btns>div.to-left{
+	background-position: 0 0;
+	margin-right: 7px;
+}
+.btns>div.to-left:hover{
+	background-position: 0 -25px;
+}
+.btns>div.to-right{
+	background-position: -25px 0;
+}
+.btns>div.to-right:hover{
+	background-position: -25px -25px;
+}
+.btns>ul{
+	float: left;
+}
+.banner-tit{
+	font-family: 'CharisSILItalic';
+    font-size: 21px;
+    line-height: 31px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* news部分 */
+.news .news-partone{
+    margin-right: 4%;
+    float: left;
+    width: 65.33%;
+    color: #4d4d4d;
+    font-family: 'PTSansRegular';
+    font-size: 14px;
+}
+.news .news-parttwo{
+	width: 30.66%;
+	float: left;
+	font-family: 'CharisSILItalic';
+    line-height: 20px;
+    font-size: 14px;
+}
+.news .news-parttwo>li{
+	padding-left: 15px;
+	background:url('bullet.png') no-repeat left center;
+}
+.news .news-partthree{
+	float: left;
+	margin-top: 30px;
+}
+.news .news-partthree li{
+	width: 22%;
+	margin-right: 4%;
+	float: left;
+	text-align: center;
+}
+.news .news-partthree li:last-child{
+	margin-right: 0;
+}
+.news .news-partthree li h4{
+	padding: 10px 0;
+	color: #ab4d63;
+}
+/* images部分 */
+.images{
+	position: relative;
+}
+.images ul{
+	position: absolute;
+	height: 130px;
+	right: 0;
+	top: 0;
+}
+.images ul li{
+	float: left;
+	margin-right: 20px;
+	width: 164px;
+}
+.images ul li:last-child{
+	margin-right: 0;
+}
+.images ul li a{
+	display: block;
+	height: 130px;
+}
+.images ul li a img{
+	width: 100%;
+	height: 100%;
+}
+.images .images-container{
+	overflow: hidden;
+	position: relative;
+	height: 130px;
+}
+.images .images-btns{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.images .images-btns a{
+	display: inline-block;
+	width: 21px;
+    height: 21px;
+    background-repeat: no-repeat;
+    background-image: url('car-arrow.png');
+}
+.images .images-btns a:first-child{
+	background-position: 0 0px;
+	margin-right: 6px;
+}
+.images .images-btns a:last-child{
+	background-position: -21px 0px;
+}

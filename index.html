@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="header" id="header"></div>
+	<div class="container" id="container"></div>
+	<div class="abouts" id="abouts"></div>
+	<div class="footer" id="footer"></div>
+	<script src='sea.js'></script>
+	<script type="text/javascript" src="modules/lib/seajs-preload.js"></script>
+	<script type="text/javascript" src="modules/lib/seajs-css.js"></script>
+	<script type="text/javascript">
+	seajs.config({
+		// 定义根目录
+		base: 'modules',
+		// 定义预加载
+		preload: ['lib/MVC.js', 'lib/jquery-1.12.2.js', 'lib/reset.css']
+	})
+	seajs.use('main',function(main){
+		main();
+	})
+	</script>
+</body>
+</html>

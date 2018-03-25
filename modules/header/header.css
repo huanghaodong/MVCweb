@@ -1,0 +1,65 @@
+.header{
+	margin-bottom: 20px;
+}
+.header .logo-container{
+	height: 94px;
+	line-height: 94px;
+}
+.header .logo-container img {
+	vertical-align: middle;
+}
+.header .logo-container ul {
+	float: right;
+}
+.header .logo-container ul li {
+	float: left;
+}
+.header .nav{
+	height: 56px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, .1);
+	background: rgba(255, 255, 255, .9);
+}
+.header .nav a{
+	text-decoration: none;
+	color: #4d4d4d;
+}
+.header .nav a:hover{
+	color: #ab4d63;
+	transition: all .5s;
+}
+.header .nav-li{
+	float: left;
+	position: relative;
+	transition: all .5s;
+}
+.header .nav-li:hover{
+	background-color: #fff;
+}
+.header .nav-li>a{
+	display: block;
+	padding: 21px 30px 19px;
+	border-right: 1px solid #b4b4b4;
+	font-size: 14px;
+}
+.header .nav-li>ul a{
+	font-size: 12px;
+}
+.header .nav-li>ul{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: #fff;
+	width: 180px;
+	display: none;
+	z-index: 1;
+}
+.header .inner-nav-li{
+	width: 150px;
+	margin: 0 auto;
+	height: 46px;
+	line-height: 46px;
+	border-bottom: 1px solid #b4b4b4;
+}
+.header .inner-nav-li:last-child{
+	border-bottom: none;
+}
